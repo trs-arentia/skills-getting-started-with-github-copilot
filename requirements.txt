@@ -1,4 +1,8 @@
-fastapi
-uvicorn
-httpx
-watchfiles
+# Core dependencies
+fastapi==0.136.3
+uvicorn==0.48.0
+
+# Testing dependencies
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx==0.28.1
